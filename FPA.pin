@@ -1,0 +1,187 @@
+ -- Copyright (C) 1991-2007 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ------------------------------------------------------------------------------
+
+
+
+ ------------------------------------------------------------------------------
+ -- NC         : No Connect. This pin has no internal connection to the device.
+ -- VCC_INT    : Dedicated power pin, which MUST be connected to VCC  (5.0V).
+ -- VCC_IO     : Dedicated power pin, which MUST be connected to VCC  (Refer to
+ --              the table below for voltage).
+ -- GND        : Dedicated ground pin, which MUST be connected to GND.
+ -- GND+       : Unused input. This pin should be connected to GND. It may also
+ --              be connected  to a  valid signal  on the board  (low, high, or
+ --              toggling)  if that signal is required for a different revision
+ --              of the design.
+ -- GND*       : Unused  I/O  pin.   This pin can either be left unconnected or
+ --              connected to GND.  Connecting this pin to GND will improve the
+ --              device's immunity to noise.
+ ------------------------------------------------------------------------------
+
+
+Quartus II Version 7.1 Build 178 06/25/2007 Service Pack 1 SJ Web Edition
+CHIP  "FPA"  ASSIGNED TO AN: EPF10K20TC144-3
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+TCK                          : 1         : input  :                   :         :           :                
+CONF_DONE                    : 2         : bidir  :                   :         :           :                
+nCEO                         : 3         : output :                   :         :           :                
+TDO                          : 4         : output :                   :         :           :                
+VCC_IO                       : 5         : power  :                   : 5.0V    :           :                
+VCC_INT                      : 6         : power  :                   : 5.0V    :           :                
+N1[9]                        : 7         : input  : TTL               :         :           : N              
+ADD_OUT[12]                  : 8         : output : TTL               :         :           : N              
+N2[23]                       : 9         : input  : TTL               :         :           : N              
+N1[23]                       : 10        : input  : TTL               :         :           : N              
+ADD_OUT[21]                  : 11        : output : TTL               :         :           : N              
+ADD_OUT[0]                   : 12        : output : TTL               :         :           : N              
+GND*                         : 13        :        :                   :         :           :                
+ADD_OUT[23]                  : 14        : output : TTL               :         :           : N              
+GND_IO                       : 15        : gnd    :                   :         :           :                
+GND_INT                      : 16        : gnd    :                   :         :           :                
+N1[11]                       : 17        : input  : TTL               :         :           : N              
+GND*                         : 18        :        :                   :         :           :                
+ADD_OUT[16]                  : 19        : output : TTL               :         :           : N              
+GND*                         : 20        :        :                   :         :           :                
+GND*                         : 21        :        :                   :         :           :                
+ADD_OUT[17]                  : 22        : output : TTL               :         :           : N              
+N1[16]                       : 23        : input  : TTL               :         :           : N              
+VCC_IO                       : 24        : power  :                   : 5.0V    :           :                
+VCC_INT                      : 25        : power  :                   : 5.0V    :           :                
+ADD_OUT[28]                  : 26        : output : TTL               :         :           : N              
+N2[30]                       : 27        : input  : TTL               :         :           : N              
+N2[26]                       : 28        : input  : TTL               :         :           : N              
+ADD_OUT[27]                  : 29        : output : TTL               :         :           : N              
+N2[8]                        : 30        : input  : TTL               :         :           : N              
+ADD_OUT[14]                  : 31        : output : TTL               :         :           : N              
+N2[1]                        : 32        : input  : TTL               :         :           : N              
+N2[14]                       : 33        : input  : TTL               :         :           : N              
+TMS                          : 34        : input  :                   :         :           :                
+nSTATUS                      : 35        : bidir  :                   :         :           :                
+N2[25]                       : 36        : input  : TTL               :         :           : N              
+N2[0]                        : 37        : input  : TTL               :         :           : N              
+N1[25]                       : 38        : input  : TTL               :         :           : N              
+N1[14]                       : 39        : input  : TTL               :         :           : N              
+GND_IO                       : 40        : gnd    :                   :         :           :                
+N2[7]                        : 41        : input  : TTL               :         :           : N              
+N1[30]                       : 42        : input  : TTL               :         :           : N              
+N1[27]                       : 43        : input  : TTL               :         :           : N              
+N2[29]                       : 44        : input  : TTL               :         :           : N              
+VCC_IO                       : 45        : power  :                   : 5.0V    :           :                
+N1[6]                        : 46        : input  : TTL               :         :           : N              
+ADD_OUT[7]                   : 47        : output : TTL               :         :           : N              
+N2[6]                        : 48        : input  : TTL               :         :           : N              
+ADD_OUT[29]                  : 49        : output : TTL               :         :           : N              
+GND_IO                       : 50        : gnd    :                   :         :           :                
+N1[10]                       : 51        : input  : TTL               :         :           : N              
+VCC_INT                      : 52        : power  :                   : 5.0V    :           :                
+VCC_INT                      : 53        : power  :                   : 5.0V    :           :                
+N1[22]                       : 54        : input  : TTL               :         :           : N              
+N2[20]                       : 55        : input  : TTL               :         :           : N              
+N2[22]                       : 56        : input  : TTL               :         :           : N              
+GND_INT                      : 57        : gnd    :                   :         :           :                
+GND_INT                      : 58        : gnd    :                   :         :           :                
+N1[21]                       : 59        : input  : TTL               :         :           : N              
+N2[2]                        : 60        : input  : TTL               :         :           : N              
+VCC_IO                       : 61        : power  :                   : 5.0V    :           :                
+N1[19]                       : 62        : input  : TTL               :         :           : N              
+ADD_OUT[25]                  : 63        : output : TTL               :         :           : N              
+ADD_OUT[15]                  : 64        : output : TTL               :         :           : N              
+ADD_OUT[19]                  : 65        : output : TTL               :         :           : N              
+GND_IO                       : 66        : gnd    :                   :         :           :                
+GND*                         : 67        :        :                   :         :           :                
+N2[17]                       : 68        : input  : TTL               :         :           : N              
+N2[10]                       : 69        : input  : TTL               :         :           : N              
+N1[13]                       : 70        : input  : TTL               :         :           : N              
+VCC_IO                       : 71        : power  :                   : 5.0V    :           :                
+N2[16]                       : 72        : input  : TTL               :         :           : N              
+ADD_OUT[10]                  : 73        : output : TTL               :         :           : N              
+nCONFIG                      : 74        : input  :                   :         :           :                
+VCC_INT                      : 75        : power  :                   : 5.0V    :           :                
+MSEL1                        : 76        : input  :                   :         :           :                
+MSEL0                        : 77        : input  :                   :         :           :                
+GND*                         : 78        :        :                   :         :           :                
+N2[3]                        : 79        : input  : TTL               :         :           : N              
+N2[19]                       : 80        : input  : TTL               :         :           : N              
+N2[21]                       : 81        : input  : TTL               :         :           : N              
+N1[29]                       : 82        : input  : TTL               :         :           : N              
+N1[28]                       : 83        : input  : TTL               :         :           : N              
+GND_INT                      : 84        : gnd    :                   :         :           :                
+GND_IO                       : 85        : gnd    :                   :         :           :                
+N2[28]                       : 86        : input  : TTL               :         :           : N              
+N1[26]                       : 87        : input  : TTL               :         :           : N              
+ADD_OUT[11]                  : 88        : output : TTL               :         :           : N              
+ADD_OUT[31]                  : 89        : output : TTL               :         :           : N              
+ADD_OUT[24]                  : 90        : output : TTL               :         :           : N              
+ADD_OUT[20]                  : 91        : output : TTL               :         :           : N              
+ADD_OUT[22]                  : 92        : output : TTL               :         :           : N              
+VCC_INT                      : 93        : power  :                   : 5.0V    :           :                
+VCC_IO                       : 94        : power  :                   : 5.0V    :           :                
+N1[17]                       : 95        : input  : TTL               :         :           : N              
+N1[2]                        : 96        : input  : TTL               :         :           : N              
+N1[18]                       : 97        : input  : TTL               :         :           : N              
+N1[12]                       : 98        : input  : TTL               :         :           : N              
+N1[5]                        : 99        : input  : TTL               :         :           : N              
+ADD_OUT[6]                   : 100       : output : TTL               :         :           : N              
+ADD_OUT[2]                   : 101       : output : TTL               :         :           : N              
+ADD_OUT[13]                  : 102       : output : TTL               :         :           : N              
+GND_INT                      : 103       : gnd    :                   :         :           :                
+GND_IO                       : 104       : gnd    :                   :         :           :                
+TDI                          : 105       : input  :                   :         :           :                
+nCE                          : 106       : input  :                   :         :           :                
+DCLK                         : 107       : bidir  :                   :         :           :                
+DATA0                        : 108       : input  :                   :         :           :                
+N2[12]                       : 109       : input  : TTL               :         :           : N              
+N2[15]                       : 110       : input  : TTL               :         :           : N              
+ADD_OUT[9]                   : 111       : output : TTL               :         :           : N              
+ADD_OUT[5]                   : 112       : output : TTL               :         :           : N              
+N2[4]                        : 113       : input  : TTL               :         :           : N              
+N2[5]                        : 114       : input  : TTL               :         :           : N              
+VCC_IO                       : 115       : power  :                   : 5.0V    :           :                
+N2[13]                       : 116       : input  : TTL               :         :           : N              
+ADD_OUT[18]                  : 117       : output : TTL               :         :           : N              
+N2[11]                       : 118       : input  : TTL               :         :           : N              
+N2[9]                        : 119       : input  : TTL               :         :           : N              
+N1[20]                       : 120       : input  : TTL               :         :           : N              
+ADD_OUT[4]                   : 121       : output : TTL               :         :           : N              
+N1[4]                        : 122       : input  : TTL               :         :           : N              
+VCC_INT                      : 123       : power  :                   : 5.0V    :           :                
+N2[31]                       : 124       : input  : TTL               :         :           : N              
+N2[18]                       : 125       : input  : TTL               :         :           : N              
+N1[31]                       : 126       : input  : TTL               :         :           : N              
+GND_INT                      : 127       : gnd    :                   :         :           :                
+ADD_OUT[30]                  : 128       : output : TTL               :         :           : N              
+GND_IO                       : 129       : gnd    :                   :         :           :                
+N1[7]                        : 130       : input  : TTL               :         :           : N              
+ADD_OUT[26]                  : 131       : output : TTL               :         :           : N              
+N1[1]                        : 132       : input  : TTL               :         :           : N              
+N2[24]                       : 133       : input  : TTL               :         :           : N              
+VCC_IO                       : 134       : power  :                   : 5.0V    :           :                
+ADD_OUT[8]                   : 135       : output : TTL               :         :           : N              
+N1[24]                       : 136       : input  : TTL               :         :           : N              
+N2[27]                       : 137       : input  : TTL               :         :           : N              
+ADD_OUT[3]                   : 138       : output : TTL               :         :           : N              
+GND_IO                       : 139       : gnd    :                   :         :           :                
+N1[8]                        : 140       : input  : TTL               :         :           : N              
+N1[0]                        : 141       : input  : TTL               :         :           : N              
+N1[3]                        : 142       : input  : TTL               :         :           : N              
+N1[15]                       : 143       : input  : TTL               :         :           : N              
+ADD_OUT[1]                   : 144       : output : TTL               :         :           : N              
